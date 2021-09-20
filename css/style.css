@@ -14,6 +14,7 @@ body {
     background-color: #212121;
     height: auto;
     width: auto;
+    position: center;
 }
 
 @media (max-width: 576px) {
