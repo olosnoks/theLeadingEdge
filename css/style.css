@@ -8,16 +8,50 @@
 }
 
 body {
-    background-image: ("https://rlv.zcache.com/minimalist_aviation_business_card-r133843da14b54d898763d2e57e497f16_tcvul_704.webp");
+    background-image: url("/media/backgroundLandscape.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #212121;
+    height: auto;
+    width: auto;
+}
+
+@media (max-width: 576px) {
+    body {
+        background-image: url("/media/background.PNG");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+        width: auto;
+    }
 }
 /* close generic 
  header */
-
+.header-section {
+    margin: 0;
+    padding: 10px 0;
+    color: #ddd;
+    text-align: center;
+}
 /* close header 
  main */
+.main-section {
+    margin: 0;
+    padding: 10px 0;
+    width: 75%;
+    background-color: #212121;
+    opacity: 0.70;
+    color: #ddd;
+    justify-content: center;
+}
 
 /* close main 
  footer */
-
+.footer-section {
+    margin: 0;
+    padding: 10px 0;
+    color: #ddd;
+    text-align: center;
+}
 /* close footer */
