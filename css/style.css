@@ -1,3 +1,4 @@
+/* generic */
 :root {
     
 }
@@ -7,8 +8,16 @@
 }
 
 body {
-    background-image: url("https://i.imgur.com/YXoWccy.jpg");
-    background-color: #999999;
-    width: 100vw;
+    background-image: ("media/businessCardBackground.jpg");
+    background-color: #999;
 }
+/* close generic 
+ header */
 
+/* close header 
+ main */
+
+/* close main 
+ footer */
+
+/* close footer */
